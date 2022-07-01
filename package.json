@@ -1,0 +1,34 @@
+{
+  "name": "three-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "home": "https://tomhsiao1260.github.io/three-starter/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomHsiao1260/webpack-starter.git"
+  },
+  "author": "Hsiao Yao",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.8.0",
+    "lil-gui": "^0.13.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.137.4"
+  },
+  "devDependencies": {
+    "@types/stats.js": "^0.17.0",
+    "@types/three": "^0.139.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.2",
+    "vite-plugin-glsl": "^0.1.2"
+  }
+}
